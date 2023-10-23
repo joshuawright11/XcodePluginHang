@@ -1,3 +1,5 @@
+# Use this script to generate dummy targets and their files
+
 for i in {1..100}
 do
     mkdir -p "Sources/Target$i"
