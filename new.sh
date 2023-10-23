@@ -5,6 +5,6 @@ do
     echo "basename: $BASENAME"
     for i in {1..500}
     do
-        echo "enum $BASENAME$i { static let number = $i }" > "Sources/$BASENAME/${BASENAME}_${i}.swift"
+        echo "enum ${BASENAME}_${i} { static let number = $i }" > "Sources/$BASENAME/${BASENAME}_${i}.swift"
     done
 done

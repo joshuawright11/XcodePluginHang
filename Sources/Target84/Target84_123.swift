@@ -1,1 +1,1 @@
-enum Target84123 { static let number = 123 }
+enum Target84_123 { static let number = 123 }
